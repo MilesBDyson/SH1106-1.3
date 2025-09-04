@@ -8,7 +8,7 @@ import time
 import bme280_sensor
 
 
-I2C_BUS = 1
+I2C_BUS = 2
 I2C_ADDR = 0x3C  # SH1106 default (commonly)
 WIDTH = 132      # SH1106 internal width (driver column count)
 VISIBLE_WIDTH = 128
